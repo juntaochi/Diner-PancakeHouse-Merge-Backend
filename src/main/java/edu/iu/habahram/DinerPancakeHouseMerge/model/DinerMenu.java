@@ -1,25 +1,23 @@
 package edu.iu.habahram.DinerPancakeHouseMerge.model;
 
-import java.util.Iterator;
-
 public class DinerMenu extends Menu{
 
 
     public DinerMenu(String name, String description) {
         super(name, description);
 
-        addItem("Vegetarian BLT",
+        addItem("Vegetarian BLT Dinner",
                 "(Fakin') Bacon with lettuce & tomato on whole wheat", true, 2.99);
-        addItem("BLT",
+        addItem("BLT Diner",
                 "Bacon with lettuce & tomato on whole wheat", false, 2.99);
-        addItem("Soup of the day",
+        addItem("Soup of the day Dinner",
                 "Soup of the day, with a side of potato salad", false, 3.29);
-        addItem("Hotdog",
+        addItem("Hotdog Diner",
                 "A hot dog, with sauerkraut, relish, onions, topped with cheese",
                 false, 3.05);
-        addItem("Steamed Veggies and Brown Rice",
+        addItem("Steamed Veggies and Brown Rice Dinner",
                 "Steamed vegetables over brown rice", true, 3.99);
-        addItem("Pasta",
+        addItem("Pasta Dinner",
                 "Spaghetti with Marinara Sauce, and a slice of sourdough bread",
                 true, 3.89);
     }
