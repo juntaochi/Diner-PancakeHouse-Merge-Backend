@@ -1,4 +1,4 @@
 FROM eclipse-temurin:17
 WORKDIR /home
-COPY ./target/pancakehouse-0.0.1-SNAPSHOT.jar pancakehouse.jar
-ENTRYPOINT ["java", "-jar", "pancakehouse.jar"]
+COPY ./target/Diner-PancakeHouse-Merge-0.0.1-SNAPSHOT.jar Diner-PancakeHouse-Merge.jar
+ENTRYPOINT ["java", "-jar", "Diner-PancakeHouse-Merge.jar"]
